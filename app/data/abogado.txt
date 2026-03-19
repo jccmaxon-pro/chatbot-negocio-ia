@@ -1,0 +1,20 @@
+Nombre del negocio: Bufete Legal Martínez
+
+Servicios:
+- Derecho civil
+- Derecho laboral
+- Asesoramiento legal
+- Redacción de contratos
+
+Horario:
+- Lunes a viernes de 9:00 a 17:00
+
+Ubicación:
+- Málaga
+
+Teléfono:
+- 600 999 999
+
+Información importante:
+- Primera consulta gratuita
+- Atención personalizada

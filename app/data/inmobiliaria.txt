@@ -1,0 +1,20 @@
+Nombre del negocio: Inmobiliaria Costa Sur
+
+Servicios:
+- Compra de viviendas
+- Venta de propiedades
+- Alquiler
+- Asesoramiento inmobiliario
+
+Horario:
+- Lunes a viernes de 9:00 a 18:00
+
+Ubicación:
+- Málaga
+
+Teléfono:
+- 600 555 555
+
+Información importante:
+- Tasación gratuita de viviendas
+- Gestión completa de compra/venta

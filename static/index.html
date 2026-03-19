@@ -1,0 +1,66 @@
+<select id="business" onchange="changeBusiness()">
+  <option value="clinica">Clínica</option>
+  <option value="inmobiliaria">Inmobiliaria</option>
+  <option value="abogado">Abogado</option>
+</select>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chatbot IA para Negocios</title>
+  <link rel="stylesheet" href="/static/style.css?v=2" />
+</head>
+<body>
+  <div class="app-shell">
+    <div class="chat-card">
+      <div class="top-bar">
+        <div>
+          <p class="eyebrow">Asistente virtual</p>
+          <h1 id="chat-title">Chatbot de la Clínica</h1>
+          <p class="subtitle" id="chat-subtitle">Atención automática con IA para responder dudas de clientes.</p>
+        </div>
+
+        <button class="secondary-btn" onclick="resetChat()">Nueva conversación</button>
+      </div>
+
+      <div id="chat-box" class="chat-box"></div>
+
+      <div class="input-area">
+        <input
+          type="text"
+          id="message"
+          placeholder="Escribe tu pregunta..."
+          onkeydown="handleKeyPress(event)"
+        />
+        <button class="primary-btn" onclick="sendMessage()">Enviar</button>
+      </div>
+      <div class="lead-actions">
+        <button class="secondary-btn" onclick="toggleLeadForm()">
+            Solicitar contacto
+        </button>
+    </div>
+
+    <div class="lead-form hidden" id="lead-form">
+        <h3>Solicitar contacto</h3>
+        <p class="lead-subtitle">Deja tus datos y el negocio podrá contactar contigo.</p>
+
+        <div class="lead-grid">
+            <input type="text" id="lead-name" placeholder="Nombre" />
+            <input type="text" id="lead-phone" placeholder="Teléfono" />
+            <input type="email" id="lead-email" placeholder="Email" />
+        </div>
+
+        <textarea id="lead-message" placeholder="Cuéntanos qué necesitas..."></textarea>
+
+        <div class="lead-form-buttons">
+            <button class="primary-btn" onclick="saveLead()">Enviar solicitud</button>
+            <button class="secondary-btn" onclick="hideLeadForm()">Cerrar</button>
+        </div>
+    </div>
+    </div>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

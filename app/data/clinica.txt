@@ -1,0 +1,21 @@
+Nombre del negocio: Clínica Estética Belleza Natural
+
+Servicios:
+- Botox
+- Relleno de labios
+- Limpieza facial
+- Rejuvenecimiento facial
+
+Horario:
+- Lunes a viernes de 9:00 a 19:00
+
+Ubicación:
+- Málaga
+
+Teléfono:
+- 600 123 123
+
+Información importante:
+- La primera valoración es gratuita.
+- Las citas deben reservarse con antelación.
+- No se dan diagnósticos médicos por chat.

@@ -1,0 +1,30 @@
+[
+  {
+    "business": "clinica",
+    "name": "Juan",
+    "phone": "695456789",
+    "email": "jccmaxon@hotmail.com",
+    "message": "ponerme botox"
+  },
+  {
+    "business": "abogado",
+    "name": "Loli",
+    "phone": "666789876",
+    "email": "madoga32@hotmail.com",
+    "message": "botox quiero"
+  },
+  {
+    "business": "clinica",
+    "name": "sergio",
+    "phone": "666778899",
+    "email": "sergio@hotmail.com",
+    "message": "vale quiero reservar botox en cara"
+  },
+  {
+    "business": "clinica",
+    "name": "dfasd",
+    "phone": "333234456",
+    "email": "jjj@gmail.com",
+    "message": "que servicios ofreceis?"
+  }
+]
