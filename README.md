@@ -19,11 +19,11 @@ http://127.0.0.1:8000
 
 ## Preview
 
-<img src="assets/preview-main.png" alt="Main Chatbot Preview" width="850">
+<img src="assets/preview-main.png" alt="Main Chatbot Preview" width="500">
 
-<img src="assets/preview-leads.png" alt="Lead Capture Preview" width="850">
+<img src="assets/preview-leads.png" alt="Lead Capture Preview" width="500">
 
-<img src="assets/preview-panel.png" alt="Leads Panel Preview" width="850">
+<img src="assets/preview-panel.png" alt="Leads Panel Preview" width="500">
 
 ## Features
 
