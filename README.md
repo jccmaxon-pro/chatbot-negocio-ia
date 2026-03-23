@@ -62,16 +62,16 @@ chatbot-negocio/
 ```
 
 
-Funcionalidades
+### Funcionalidades
 1. Chat multi-negocio
 
 El usuario puede seleccionar entre varios tipos de negocio:
 
-Clínica
+- Clínica
 
-Inmobiliaria
+- Inmobiliaria
 
-Abogado
+- Abogado
 
 Cada opción carga un contexto distinto desde archivos de texto independientes.
 
@@ -97,8 +97,8 @@ guardar los datos en leads.json.
 
 Incluye una vista sencilla para consultar los leads captados desde el navegador.
 
-Instalación local
-
+### Instalación local
+```bash
 Clona el repositorio y entra en la carpeta del proyecto:
 
 git clone <TU_REPO_URL>
@@ -112,7 +112,8 @@ source venv/bin/activate
 Instala dependencias:
 
 pip install -r requirements.txt
-Configuración
+
+### Configuración
 
 Crea un archivo .env en la raíz del proyecto con tu clave de OpenAI:
 
@@ -139,43 +140,45 @@ Comando de build
 pip install -r requirements.txt
 Comando de inicio
 uvicorn app.main:app --host 0.0.0.0 --port $PORT
-Casos de uso
+```
+
+### Casos de uso
 
 Este proyecto puede adaptarse para:
 
-clínicas estéticas
+- clínicas estéticas
 
-inmobiliarias
+- inmobiliarias
 
-despachos legales
+- despachos legales
 
-academias
+- academias
 
-pequeños negocios de atención al cliente
+- pequeños negocios de atención al cliente
 
-soporte de preguntas frecuentes
+- soporte de preguntas frecuentes
 
-captación de leads desde web
+- captación de leads desde web
 
-Mejoras futuras
+### Mejoras futuras
 
-base de datos para leads
+- base de datos para leads
 
-autenticación para panel admin
+- autenticación para panel admin
 
-despliegue con persistencia real
+- despliegue con persistencia real
 
-integración con email o WhatsApp
+- integración con email o WhatsApp
 
-agenda y reservas
+- agenda y reservas
 
-soporte para múltiples idiomas
+- soporte para múltiples idiomas
 
-panel de analítica
+- panel de analítica
 
-entrenamiento con documentos del negocio
+- entrenamiento con documentos del negocio
 
-Valor del proyecto
+### Valor del proyecto
 
 Este chatbot no solo responde preguntas, sino que también:
 
@@ -187,21 +190,7 @@ convierte conversaciones en leads,
 
 sirve como demo funcional de un producto SaaS simple orientado a negocio.
 
-Autor
+### Autor
 
 Proyecto desarrollado por Juan Carrasco como parte de un portfolio de automatización, IA aplicada y soluciones freelance para negocio.
 
-
-## Dos extras que te recomiendo añadir
-Crea también un `.gitignore` en ese proyecto con esto:
-
-```gitignore
-venv/
-.env
-__pycache__/
-*.pyc
-<<<<<<< HEAD
-.DS_Store
-=======
-.DS_Store
->>>>>>> 6babfbdda3de7421221db7e687c20b310d0c28ca
