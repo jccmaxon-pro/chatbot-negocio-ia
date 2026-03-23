@@ -118,8 +118,10 @@ pip install -r requirements.txt
 Crea un archivo .env en la raíz del proyecto con tu clave de OpenAI:
 
 OPENAI_API_KEY=tu_clave_aqui
-Ejecución local
+```
 
+### Ejecución local
+```bash
 Arranca el servidor con:
 
 uvicorn app.main:app --reload
