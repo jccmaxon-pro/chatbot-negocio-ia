@@ -59,6 +59,7 @@ chatbot-negocio/
 ├── .env
 ├── requirements.txt
 └── README.md
+```
 
 
 Funcionalidades
